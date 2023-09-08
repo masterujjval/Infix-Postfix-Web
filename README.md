@@ -19,13 +19,17 @@ In postfix notation, operators are placed after their operands. To evaluate a po
 - Multiplication: 4 6 *
 - Division: 8 2 /
 
-## Run Infix-Postfix-Web
+### Run Infix-Postfix-Web
 
 - Fork the repo and run locally on any IDE.
 - Click here to [run](https://masterujjval.github.io/Infix-Postfix-Web/)
 
-## Miscellaneous 
+### Miscellaneous 
 
 The **stack** data structure is required to convert any infix notation to postfix notation, it stores the operators according to their associativity and pops accordingly to generate desired results.
 
 If you want to know more about data structure check out this [repo](https://github.com/masterujjval/ds-carnival)
+
+###Sample
+
+![Screenshot from 2023-09-08 16-34-18](https://github.com/masterujjval/Infix-Postfix-Web/assets/64778409/93aae61f-ebc9-4046-ba71-f6764429a775)
