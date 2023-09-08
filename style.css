@@ -60,7 +60,7 @@ font-size: 15px;
 
 }
 textarea{
-    resize: none;
+    
     background: black;
     outline : none;
     margin: 1% 0;
@@ -325,7 +325,7 @@ textarea{
 
     input,textarea{
         width:63vw;
-        height: 3.1vh;
+        height: 30px;
     }
 
     #g1,#g2,#g3{
