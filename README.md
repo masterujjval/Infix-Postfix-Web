@@ -22,7 +22,7 @@ In postfix notation, operators are placed after their operands. To evaluate a po
 ## Run Infix-Postfix-Web
 
 - Fork the repo and run locally on any IDE.
-- Click here to run.
+- Click here to [run](https://masterujjval.github.io/Infix-Postfix-Web/)
 
 ## Miscellaneous 
 
