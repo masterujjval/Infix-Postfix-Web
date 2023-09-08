@@ -16,7 +16,7 @@ body{
 }
 
 video {
-    object-fit: cover;
+    object-fit: fill;
     position: absolute;
     top: 0;
     left: 0;
@@ -67,7 +67,7 @@ textarea{
     border : 1px solid blueviolet;
     
     color: lavender;
-    height : 2.5vh;
+    height : 3.1vh;
     width: 215px;
     padding: 3px 4px;
     
@@ -76,7 +76,7 @@ textarea{
 input{
     margin: 1% 0;
     font-size:medium;
-    height: 2.5vh;
+    height: 3vh;
     width: 215px;
     padding: 3px 4px;
     background: black;
@@ -85,16 +85,18 @@ input{
     border: 1px solid blueviolet;
 }
 button{
-    height: 30px;
+    height: 50px;
     width: 100px;
     font-size: larger;
     display: block;
     font-weight: 300;
-    margin-top: 10%;
-   border-radius: 6px;
-   background-color: black;
-      color: white; 
-  border: 0.5px solid whitesmoke;
+    margin-top: 5px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid whitesmoke;
+    position: relative;
+    top: 22px;
   
 }
 button:hover{
@@ -107,6 +109,257 @@ button:hover{
     position: relative;
     height: 40px;
     width: 40px;
-    top: 43px;
+    top: 59px;
     right: 104px;
 }
+
+#g2{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 17px;
+    
+}
+#g3{
+    position: relative;
+   
+    height: 40px;
+    width: 40px;
+    bottom: 26px;
+left: 103px;
+}
+
+
+
+
+
+
+
+
+
+#heading1{
+  
+    position:absolute;
+    display: inline;
+    white-space: pre-line;
+        left: 11vw;
+        top: 19vh;
+    z-index: 2;
+  
+    color: rgba(240, 217, 217, 0.7);
+
+
+}
+#para1{
+    line-height: 2rem;
+    color: rgba(240, 217, 217, 0.7);
+}
+
+
+#h3{
+    justify-content: center;
+text-align: left;
+}
+
+#heading2{
+
+    position:absolute;
+    display: inline;
+   
+        right: 4vw;
+        top: 19vh;
+    z-index: 2;
+  
+    color: rgba(240, 217, 217, 0.7);
+    
+
+}
+#para2{
+    white-space: pre-line;
+    line-height: 2rem;
+    color: rgba(240, 217, 217, 0.7);
+    justify-content: center;
+    text-align: left;
+}
+
+
+#input{
+    margin-left: -1.5vw;
+    color:rgba(255, 255, 255, 0.8);
+    margin-top: 65px;
+}
+
+#textarea{
+    margin-right: 5.3vw;
+    margin-top: 23px;
+    color:rgba(255, 255, 255, 0.8)
+}
+
+
+input{
+    color:rgba(255, 255, 255, 0.8);
+}
+textarea{
+    color:rgba(255, 255, 255, 0.8);}
+
+/* animation  */
+#heading1 {
+
+    overflow: hidden;
+    
+}
+  
+  .slide-right h3,#para1 {
+    animation: 2s slide-right 2s forwards;
+      transform:translateX(-100%);
+  }
+  
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+  }
+
+  #heading2 {
+
+    overflow: hidden;
+    
+}
+  
+  .slide-right h3,#para2 {
+    animation: 2s slide-right 2s forwards;
+      transform:translateX(100%);
+  }
+  
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 500px) {
+
+
+
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 1px solid transparent;
+
+    }
+
+
+
+
+    video {
+        object-fit:fill;
+        
+        position: absolute;
+       
+        height: 200vh;
+        width: 100%;
+        display: block;
+      }
+    
+
+    #conversion{
+        position: relative;
+       
+        
+        height: 48vh;
+        width: 82vw;
+        display: flex;  
+       justify-content:center;
+       
+       text-align: left;
+        flex-direction: column;
+        border-radius: 6px;
+    
+        box-shadow: 5px 10px 20px rgba(68, 65, 65, 1);
+        background: rgba(0, 0, 0, 0.7);
+        top: -126px;
+    }
+
+ #heading1{
+
+       top: 77vh;
+
+ }   
+
+
+
+
+
+
+
+    #heading2{
+
+        z-index: 2;
+        top: 125vh;
+        left: 11vw;
+        
+    
+    }
+    #para2{
+        white-space: pre-line;
+        line-height: 2rem;
+        color: rgba(240, 217, 217, 0.7);
+        justify-content: center;
+        text-align: left;
+    }
+    
+
+    input,textarea{
+        width:63vw;
+    }
+
+    #g1,#g2,#g3{
+        height: 35px;
+        width:35px;
+       
+    }
+    #g1{
+        right: 75px;
+    }
+    #g2{
+        top:21px;
+
+    }
+    #g3{
+        top: -17px;
+        left: 74px;
+    }
+
+
+    #input, #textarea{
+        font-size: 15px;
+        color:rgba(255, 255, 255, 0.8)
+      
+    }
+    #input{
+    margin-left: -47px;
+    
+    }
+    #textarea{
+        margin-right: 105px;
+        margin-top: 20px;
+    }
+
+
+    
+
+  }

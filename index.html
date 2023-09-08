@@ -7,21 +7,53 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
   </head>
   <body>
+
+    <div id="heading1">
+      <h3>What is postfix expression?
+         why it is important? </h3>
+      <p id="para1">Postfix notation (also known as 
+        Reverse Polish Notation) 
+        is a way to represent an expression, 
+        where operators follow their 
+        corresponding operands. 
+        Evaluating an expression represented as 
+        postfix notation can easily 
+        be done using the stack data structure.</p>
+    </div>      
+
+
+      <div id="heading2">
+        <h3 id="h3">What is stack? </h3>
+       <p id="para2">
+        A Stack is a linear data structure that 
+        follows the LIFO (Last-In-First-Out) principle. 
+        Stack has one end, whereas the Queue 
+        has two ends (front and rear). 
+        It contains only one pointer top
+         pointer pointing to the topmost element of the stack. 
+        Whenever an element is added in
+         the stack, it is added on the
+          top of the stack, 
+        and the element can be deleted 
+        only from the stack. 
+      </p>
+        </div>
+
     <div id="container">
 
 <video autoplay muted loop poster="Loading">
     <source src="Untitled design.mp4">
 </video>
 
-    
+
 
     <div id="conversion">
 
-      <p>Enter the infix expression:</p>
+      <p id="input"><label for="exp">Enter the infix expression:</label></p>
       
-      <input type="text" id="exp" /><br /><br />
+      <input type="text" id="exp" placeholder="e.g, A+B, a/b"/><br /><br />
       
-      <p>Here is the postfix expression</p>
+      <p id="textarea">Postfix expression: </p>
       
       <textarea name="" id="answer" readonly rows="1" cols="25" disabled>
       
@@ -30,7 +62,11 @@
       <br>  
       <button id="submit" onclick="fun()" > Convert</button>
 
+
+
       <a href="https://github.com/masterujjval" target="_blank"><img id="g1" src="github.png" ></a>
+      <a href="https://www.linkedin.com/in/ujjwal-gupta-06309a233/" target="_blank"><img id="g2" src="Linkedin.png"></a>
+      <a href="https://github.com/masterujjval/Infix-to-postfix" target="_blank"><img  id="g3" src="change.png" ></a>
     </div>
       
     </div>
