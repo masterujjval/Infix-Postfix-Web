@@ -325,6 +325,7 @@ textarea{
 
     input,textarea{
         width:63vw;
+        height: 3.1vh;
     }
 
     #g1,#g2,#g3{
