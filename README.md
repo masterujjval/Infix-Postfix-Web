@@ -30,6 +30,6 @@ The **stack** data structure is required to convert any infix notation to postfi
 
 If you want to know more about data structure check out this [repo](https://github.com/masterujjval/ds-carnival)
 
-###Sample
+### Sample
 
 ![Screenshot from 2023-09-08 16-34-18](https://github.com/masterujjval/Infix-Postfix-Web/assets/64778409/93aae61f-ebc9-4046-ba71-f6764429a775)
