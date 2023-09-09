@@ -143,7 +143,7 @@ left: 103px;
     position:absolute;
     display: inline;
     white-space: pre-line;
-        left: 11vw;
+        left: 7vw;
         top: 19vh;
     z-index: 2;
   
@@ -167,7 +167,7 @@ text-align: left;
     position:absolute;
     display: inline;
    
-        right: 4vw;
+        right: 2vw;
         top: 19vh;
     z-index: 2;
   
@@ -361,7 +361,39 @@ textarea{
         margin-top: 20px;
     }
 
+  }
+    
+/* other media screen */
+
+@media (max-width:1300px) and (min-width:1250px) {
+
+    #heading1{
+  
+        position:absolute;
+        display: inline;
+        white-space: pre-line;
+            left: 4vw;
+            top: 16vh;
+        z-index: 2;
+      
+        color: rgba(240, 217, 217, 0.7);
+    
+    
+    }
+
+    #heading2{
+
+        position:absolute;
+        display: inline;
+       
+            right: 0vw;
+            top: 19vh;
+        z-index: 2;
+      
+        color: rgba(240, 217, 217, 0.7);
+        
+    
+    }
 
     
-
-  }
+}
